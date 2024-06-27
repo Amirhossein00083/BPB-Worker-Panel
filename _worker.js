@@ -2645,10 +2645,6 @@ const renderErrorPage = (message, error, refer) => {
     </html>`;
 }
 
-const isRunningAsWorker = () => {
-    return typeof process === 'undefined';
-}
-
 const xrayConfigTemp = {
     remarks: "",
     log: {
